@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <title>Agriconnect Nigeria</title>
+    <link rel="stylesheet" href="style.css
+    ">
+  </head>
+  <body>
+    <header>
+   <h1>AgriConnect</h1>
+   <p>Connecting Farmers To Buyers</p> 
+  </header>
+<nav>
+  <a href="#">Home</a>
+  <a href="#about">About us</a>
+  <a href="#produce">Available Produce</a>
+</nav>
+<main>
+  <section id="about">
+    <h2>Welcome To AgriConnect</h2>
+
+    <p>
+      We help farmers find buyers for their agricultural produce and reduce waste.
+    </p>
+    <button>Explore Produce</button>
+  </section>
+    <section id="produce">
+      <h2>
+        Available Produce
+      </h2>
+      <input type="text" id="searchinput" placeholder="search for tomatoes, rice, maize, Onions...">
+
+      <p>Fresh produce from our farmers will appear here.</p>
+     <h3>Sell your produce</h3>
+          <form id="produceForm">
+            <input type="text"
+            id="produceName"
+            placeholder="produce name(e.g Beans)"
+            required>
+            <input type="number"
+            id="produceQuantity"
+            placeholder="Quantity Available"
+            min="1"
+            required>
+            <input type="number"
+            id="ProducePrice"
+            placeholder="Price in Naira"
+            min="1"
+            required>
+            <button type="submit">Add produce</button>
+          </form>
+      <div class="produce-container"></div>
+      </div>
+  </section>
+</main>
+<footer>
+  <p>AgriConnect Nigeria &#38copy; 2026</p>
+</footer>
+<script src="script.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
